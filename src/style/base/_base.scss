@@ -1,0 +1,56 @@
+$color-base:blue;
+$body-padding:0px;
+*{
+    // color:$color-base;
+    font-family:'BYekan', Helvetica ,Arial , sans-serif
+}
+.left-panel{
+    width: 20%;
+    min-width: 220px;
+}
+body{
+    padding: $body-padding;
+    // min-width: 600px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px; /* height of horizontal scrollbar ← You're missing this */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #0196f4;
+    border-radius: 10px;
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #0145a6;
+    }
+
+
+HTML, BODY {
+    scrollbar-face-color: #0196f4;
+    scrollbar-arrow-color: #FFFFFF;
+    scrollbar-track-color: #0145a6;
+    scrollbar-shadow-color: rgb(0,0,0);
+    scrollbar-highlight-color: rgb(0,0,0);
+    scrollbar-3dlight-color: #808080;
+    scrollbar-darkshadow-Color: #202020;
+}
+// @font-face {
+//     font-family: 'BYekan';
+//     src: url('../fonts/BYekan.eot?#') format('eot'), /* IE6–8 */
+//     url('../fonts/BYekan.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+//     url('../fonts/BYekan.ttf') format('truetype'); /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+// }
+
+.Link-Active{
+    font-weight: bold;
+}
